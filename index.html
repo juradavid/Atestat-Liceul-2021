@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="grid.css">
+        <script src="https://kit.fontawesome.com/f5f9dfb1f0.js" crossorigin="anonymous"></script>
+        <title>Atestat Website</title>
+    </head>
+    <body>
+        <header>
+            <nav class="row">
+                <ul class="main-nav">
+                    <li><a href="#" class="current"><i class="fas fa-ring"></i>Roulette</a></li>
+                    <li><a href="dice.html"><i class="fas fa-dice"></i>Dice</a></li>
+                    <li><a href="slots.html"><i class="fas fa-coins"></i>Slots</a></li>
+                    <li><a href="contact.html"><i class="fas fa-user-friends"></i>Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="game-roulette">
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <div id="game-input-money">
+                        <h3 class="balance">Balance: <h3 class="real-balance">150000</h3></h3>
+                        <i class="fas fa-dollar-sign"></i>
+                        <input class="input-balance" type="number" maxlength="10">
+                    </div>
+                    <div id="game-options">
+                        <div class="col span-1-of-3">
+                            <div class="game-options-choice">
+                                <button class="red-button">Rosu</button>
+                            </div>
+                        </div>
+                        <div class="col span-1-of-3">
+                            <div class="game-options-choice">
+                                <button class="green-button">Verde</button>
+                            </div>
+                        </div>
+                        <div class="col span-1-of-3">
+                            <div class="game-options-choice">
+                                <button class="black-button">Negru</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info-box"><p>Jocul de ruletă este unul din cele mai vechi jocuri de noroc existente în cazinouri. Jocul de ruletă se desfășoară pe o masă specială, cu tăblia împărțită în 37 de numere, având la un capăt o ruletă cu 37 de diviziuni egale numerotate de la 0 la 36. Suma numerelor inscripționate pe ruletă este 666.<a href="https://ro.wikipedia.org/wiki/Rulet%C4%83_(joc)"> [mai mult]</a></p></div>
+                </div>
+                <div class="col span-1-of-2">
+                    <div id="game-table">
+                        <img class="arrow" src="images/a.png">
+                        <img class="wheel" src="images/roulette-table.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="row">
+                <div>
+                    <ul class="second-nav">
+                        <li><a href="index.html">Roulette</a></li>
+                        <li><a href="dice.html">Dice</a></li>
+                        <li><a href="slots.html">Slots</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <p>ATESTAT &copy 2021 - Jura David Daniele</p> 
+            </div>
+        </footer>
+        <script src="roulette.js"></script>
+    </body>
+</html>

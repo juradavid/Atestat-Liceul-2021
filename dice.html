@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="grid.css">
+        <script src="https://kit.fontawesome.com/f5f9dfb1f0.js" crossorigin="anonymous"></script>
+        <title>Atestat Website</title>
+    </head>
+    <body>
+        <header>
+            <nav class="row">
+                <ul class="main-nav">
+                    <li><a href="index.html"><i class="fas fa-ring"></i>Roulette</a></li>
+                    <li><a href="#" class="current"><i class="fas fa-dice"></i>Dice</a></li>
+                    <li><a href="slots.html"><i class="fas fa-coins"></i>Slots</a></li>
+                    <li><a href="contact.html"><i class="fas fa-user-friends"></i>Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <div class="info-box watch"><p>Barbutul este un joc de noroc cu zaruri practicat între doi sau mai mulți jucători. Barbutul era întâlnit și în perioada comunistă deși atunci era interzisă practicarea jocurilor de noroc în afara locurilor special amenajate și legalizate.<a href="https://ro.wikipedia.org/wiki/Barbut"> [mai mult]</a></p></div>
+            <div id="dice-game">
+                <div class="row">
+                    <div id="cube">
+                        <div class="front">
+                            <span class= "dot dot1"></span>
+                        </div>
+                        <div class="back">
+                            <span class= "dot dot1"></span>
+                            <span class= "dot dot2"></span>
+                        </div>
+                        <div class="right">
+                            <span class= "dot dot1"></span>
+                            <span class= "dot dot2"></span>
+                            <span class= "dot dot3"></span>
+                        </div>
+                        <div class="left">
+                            <span class= "dot dot1"></span>
+                            <span class= "dot dot2"></span>
+                            <span class= "dot dot3"></span>
+                            <span class= "dot dot4"></span>
+                        </div>
+                        <div class="top">
+                            <span class= "dot dot1"></span>
+                            <span class= "dot dot2"></span>
+                            <span class= "dot dot3"></span>
+                            <span class= "dot dot4"></span>
+                            <span class= "dot dot5"></span>
+                        </div>
+                        <div class="bottom">
+                            <span class= "dot dot1"></span>
+                            <span class= "dot dot2"></span>
+                            <span class= "dot dot3"></span>
+                            <span class= "dot dot4"></span>
+                            <span class= "dot dot5"></span>
+                            <span class= "dot dot6"></span>
+                        </div>
+                    </div>
+                    <div id="game-input-money-dice">
+                        <h3 class="balance-dice">Balance: <h3 class="real-balance-dice">150000</h3></h3>
+                        <i class="fas fa-dollar-sign"></i>
+                        <input class="input-balance-dice" type="number" maxlength="10">
+                    </div>
+                    <div id="par-impar">
+                        <div class="col span-1-of-2">
+                            <button class="par-button">PAR</button>
+                        </div>
+                        <div class="col span-1-of-2">
+                            <button class="impar-button">IMPAR</button>
+                        </div>
+                    </div>
+                    <div id="number-choice">
+                        <div class="col span-1-of-6">
+                            <div class="button-number">
+                                <button class="number1 number-button">1</button>
+                            </div>
+                        </div>
+                        <div class="col span-1-of-6">
+                            <div class="button-number">
+                                <button class="number2 number-button">2</button>
+                            </div>
+                        </div>
+                        <div class="col span-1-of-6">
+                            <div class="button-number">
+                                <button class="number3 number-button">3</button>
+                            </div>
+                        </div>
+                        <div class="col span-1-of-6">
+                            <div class="button-number">
+                                <button class="number4 number-button">4</button>
+                            </div>
+                        </div>
+                        <div class="col span-1-of-6">
+                            <div class="button-number">
+                                <button class="number5 number-button">5</button>
+                            </div>
+                        </div>
+                        <div class="col span-1-of-6">
+                            <div class="button-number">
+                                <button class="number6 number-button">6</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="row">
+                <div>
+                    <ul class="second-nav">
+                        <li><a href="index.html">Roulette</a></li>
+                        <li><a href="dice.html">Dice</a></li>
+                        <li><a href="slots.html">Slots</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <p>ATESTAT &copy 2021 - Jura David Daniele</p> 
+            </div>
+        </footer>
+        <script src="dice.js"></script>
+    </body>
+</html>
